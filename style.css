@@ -1,0 +1,47 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+:root{
+  --text-secondary: #3961F3;
+  --text-primary: #000000;
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    width: 100px;
+    height: 90px;
+}
+
+.nav-item .nav-link{
+    color: var(--text-secondary);
+    font-weight: bold;
+}
+.list_item {
+    list-style: none;
+
+
+}
+.modal-body{
+    display: flex;
+    margin: 10px;
+    gap: 30px;
+}
+.card-title{
+    padding: 0px;
+}
+
+.cart_section{
+    width: 1500px;
+}
+li .dropdown-item:hover{
+    color: #3961F3;
+    text-decoration: underline;
+    
+}
+.list_item{
+    padding: 10px 0px;
+}
