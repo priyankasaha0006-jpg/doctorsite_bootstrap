@@ -4,20 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Doctor Homepg</title>
+    <title>Find Doctors</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-
 </head>
 
 <body>
+
     <!-- Navbar -->
     <div class="container-fluid">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-                <a class="navbar-brand " href="#"><img src="./asset/Practo Logo PNG Vector (EPS) Free Download.jpg  "
-                        class="logo"></a>
+                <a class="navbar-brand " href="index.html"><img
+                        src="./asset/Practo Logo PNG Vector (EPS) Free Download.jpg  " class="logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -26,7 +26,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="find_doctor.html">Find Doctor</a>
+                            <a class="nav-link" aria-current="page" href="#">Find Doctor</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Video Consult</a>
@@ -201,292 +201,200 @@
         </nav>
     </div>
 
-    <!-- Hero Section -->
-    <section class="hero-section">
+    <!-- Book an Appointment -->
+    <div class="doctor_details">
+        <section class="book_appointment">
+            <div>
+                <h3 class="heading_finddoc">Book an Appointment</h3>
+                <p>Find the right doctor and book slot in just a few clicks.</p>
+            </div>
 
-        <div class="container">
-            <div class="row align-items-center min-vh-100">
 
-                <!-- Left Content -->
-                <div class="col-lg-6">
+            <!-- Book an Appointment -->
+            <form>
+                <div class="list_form">
+                    <fieldset disabled>
+                        <div class="mb-3">
+                            <input type="text" id="disabledTextInput" class="form-control"
+                                placeholder="Search doctor, specialty or hospitalt">
+                        </div>
+                        <div class="mb-3">
+                            <select id="disabledSelect" class="form-select">
+                                <option>All Specialties </option>
+                            </select>
 
-                    <h1 class="hero-title">
-                        Book Doctor<br>
-                        Appointments Online
-                    </h1>
 
-                    <!-- Search -->
-                    <div class="input-group ">
+                        </div>
+                        <div class="mb-3">
+                            <select id="disabledSelect" class="form-select">
+                                <option>All Locations</option>
+                            </select>
 
-                        <input class="form-control" type="text" value="Search Doctors, Specialities etc..."
-                            aria-label="readonly input example" readonly>
+
+                        </div>
+
+                    </fieldset>
+                </div>
+            </form>
+            <!--Top Doctors-->
+            <h4>Top Doctors</h4>
+            <div class="top_doctor">
+                <img src="./asset/doctor.png" alt="" width="px" height="60px">
+                <div>
+                    <div class="doc_verify">
+
+                        <p class="doc_name">Dr. Priya Sharma</p>
+                        <img src="./asset/verified.png" alt="" height="20px">
+                    </div>
+                    <h6 class="department">Cardiologist</h6>
+                    <div class="rating">
+                        <h6>⭐ 4.9</h6>
+                        <p>(Reviews)</p>
+                    </div>
+                </div>
+                <div>
+                    <button class="btn-light rounded-pill px-5 py-2  bg-light border-light">Available
+                    </button>
+                </div>
+
+
+            </div>
+
+            <div class="top_doctor">
+                <img src="./asset/maledoc.png" alt="" width="px" height="60px">
+                <div>
+                    <div class="doc_verify">
+
+                        <p class="doc_name">Dr. Arjun Mehta</p>
+                        <img src="./asset/verified.png" alt="" height="20px">
+                    </div>
+                    <h6 class="department">Neurologist</h6>
+                    <div class="rating">
+                        <h6>⭐ 4.9</h6>
+                        <p>(Reviews)</p>
+                    </div>
+                </div>
+                <div>
+                    <button class="btn-light rounded-pill px-5 py-2  bg-light border-light">Available
+                    </button>
+                </div>
+
+
+            </div>
+
+            <div class="top_doctor">
+                <img src="./asset/oldlady.png" alt="" width="px" height="60px">
+                <div>
+                    <div class="doc_verify">
+
+                        <p class="doc_name">Dr. Sarojini Nandi</p>
+                        <img src="./asset/verified.png" alt="" height="20px">
+                    </div>
+                    <h6 class="department">Orthopedic</h6>
+                    <div class="rating">
+                        <h6>⭐ 4.9</h6>
+                        <p>(Reviews)</p>
+                    </div>
+                </div>
+                <div>
+                    <button class="btn-light rounded-pill px-5 py-2  bg-light border-light">Available
+                    </button>
+                </div>
+
+
+            </div>
+
+            <div class="top_doctor">
+                <img src="./asset/dr.meera.png" alt="" width="px" height="60px">
+                <div>
+                    <div class="doc_verify">
+
+                        <p class="doc_name">Dr. Meera Kapoor</p>
+                        <img src="./asset/verified.png" alt="" height="20px">
+                    </div>
+                    <h6 class="department">Pediatrics</h6>
+                    <div class="rating">
+                        <h6>⭐ 4.9</h6>
+                        <p>(Reviews)</p>
+                    </div>
+                </div>
+                <div>
+                    <button class="btn-light rounded-pill px-5 py-2  bg-light border-light">Available
+                    </button>
+                </div>
+
+
+            </div>
+
+            <h6 class="view_all">View all Doctors</h6>
+
+
+
+
+        </section>
+        <!-- Appointment Summary -->
+        <section class="doctor_info">
+
+            <!-- 3-steps -->
+            <div class="summary">
+
+                <div>
+                    <div class="cercle">1</div>
+                    <h6 class="steps_heading">Select <br> Doctor</h6>
+                </div>
+                <hr class="rular">
+                <div>
+                    <div class="cercle2">2</div>
+                    <h6 class="steps_heading">Select Date <br> & Time</h6>
+                </div>
+                <hr class="rular">
+                <div>
+                    <div class="cercle2">3</div>
+                    <h6 class="steps_heading">Confirm <br> Booking</h6>
+                </div>
+            </div>
+
+            <!-- Dr. Priya Sharma -->
+            <div class="all_aboutdoc">
+                <div class="dr_priya">
+                    <img src="./asset/doctor.png" alt="" height="100px">
+                    <div>
+                        <div class="doc_verify">
+                            <h4>Dr. Priya Sharma</h4>
+                            <img src="./asset/verified.png" alt="" height="20px">
+                        </div>
+                        <ul class="description_list">
+                            <li>Cardiologist</li>
+                            <li>MBBS ,Md (Cardiologist)</li>
+                            <li>1,200/-</li>
+                            <div class="rating">
+                                <h6>⭐ 4.9</h6>
+                                <p>(Reviews)</p>
+                            </div>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="qualities">
+                    <img src="./asset/calender.png" alt="" width="30px" height="30px">
+                    <div class="experience_8years">
+                        <p>Experience</p>
+                        <p>8+ Years</p>
 
                     </div>
 
-
-                    <!-- Buttons -->
-                    <div class="d-flex gap-2 mt-4">
-
-                        <button class="btn btn-dark rounded-pill px-4 py-3 shadow">
-                            Book Appointment
-                        </button>
-
-                        <button class="btn learn-btn rounded-pill px-4 py-3 shadow bg-white">
-                            Learn More
-                        </button>
-
-                    </div>
-
-                </div>
-
-
-                <!-- Right Image -->
-                <div class="col-lg-6 text-center">
-
-                    <img src="./asset/Doc.png" alt="Doctor" class="doctor-image rounded-circle" width="450px"
-                        height="450px">
-
                 </div>
 
             </div>
-        </div>
-    </section>
+
+        </section>
+    </div>
 
 
-    <!--Talk to Doctors for an Instant Advice -->
-    <section class="part_2">
-        <div class="talk_to_doctor">
-            <h1 class="hero-title">
-                Talk to Doctors for an Instant Advice
-            </h1>
-            <p class="get_5_off">Get 5% off Use Code CC50</p>
-            <button class="btn btn-dark rounded-pill px-4 py-3 shadow">
-                Consult Now
-            </button>
-
-        </div>
-        <img src="./asset/cunsult.png" alt="" width="500px">
-
-        <div>
-
-        </div>
-    </section>
-
-    <!-- Browse by Specialtie -->
-    <section class="part_3">
-        <div class="browse_by">
-            <h1 class="hero-title">
-                Browse by Specialtie
-            </h1>
-            <p>Select a department to consult with a specialist Doctor</p>
-
-        </div>
-        <div class="all_department_cart">
-            <div class="general_physician">
-                <img src="./asset/general_physician.png" alt="" width="300px">
-                <h3 class="title_department">General Physician</h3>
-                <h5 class="routine">Routine Checkup</h5>
-                <button class="btn btn-dark rounded-pill px-4 py-3 shadow">
-                    Consult Now
-                </button>
-            </div>
-
-            <div class="general_physician">
-                <img src="./asset/derma.png" alt="" width="300px">
-                <h3 class="title_department">Dermatology</h3>
-                <h5 class="routine">Skin, Hair & Nailcare</h5>
-                <button class="btn btn-dark rounded-pill px-4 py-3 shadow">
-                    Consult Now
-                </button>
-            </div>
-
-            <div class="general_physician">
-                <img src="./asset/gyno.png" alt="" width="300px">
-                <h3 class="title_department">Gynaecology</h3>
-                <h5 class="routine">Women's Health and Maternity</h5>
-                <button class="btn btn-dark rounded-pill px-4 py-3 shadow">
-                    Consult Now
-                </button>
-            </div>
-        </div>
-
-        <div class="all_department_cart">
-            <div class="general_physician">
-                <img src="./asset/ortho.png" alt="" width="300px">
-                <h3 class="title_department">Orthopedics</h3>
-                <h5 class="routine">Bone Joint & Muscle Care</h5>
-                <button class="btn btn-dark rounded-pill px-4 py-3 shadow">
-                    Consult Now
-                </button>
-            </div>
-
-            <div class="general_physician">
-                <img src="./asset/ent.png" alt="" width="300px">
-                <h3 class="title_department">ENT</h3>
-                <h5 class="routine">Ear Nose & Through issues</h5>
-                <button class="btn btn-dark rounded-pill px-4 py-3 shadow">
-                    Consult Now
-                </button>
-            </div>
-
-            <div class="general_physician">
-                <img src="./asset/Neuro.png" alt="" width="300px">
-                <h3 class="title_department">Neurology</h3>
-                <h5 class="routine">Brain & Nervous System</h5>
-                <button class="btn btn-dark rounded-pill px-4 py-3 shadow">
-                    Consult Now
-                </button>
-            </div>
-        </div>
-
-        <div class="all_department_cart">
-            <div class="general_physician">
-                <img src="./asset/cardio.png" alt="" width="300px">
-                <h3 class="title_department">Cardiology</h3>
-                <h5 class="routine">Heart & Blood Vessel Care</h5>
-                <button class="btn btn-dark rounded-pill px-4 py-3 shadow">
-                    Consult Now
-                </button>
-            </div>
-
-            <div class="general_physician">
-                <img src="./asset/Child.png" alt="" width="300px">
-                <h3 class="title_department">Paediatrics</h3>
-                <h5 class="routine">Child health & Development</h5>
-                <button class="btn btn-dark rounded-pill px-4 py-3 shadow">
-                    Consult Now
-                </button>
-            </div>
-
-            <div class="general_physician">
-                <img src="./asset/dentist.png" alt="" width="300px">
-                <h3 class="title_department">Dentistry</h3>
-                <h5 class="routine">Dental Care & Oral Care</h5>
-                <button class="btn btn-dark rounded-pill px-4 py-3 shadow">
-                    Consult Now
-                </button>
-            </div>
-        </div>
-
-    </section>
-
-    <!-- Instant appointment with doctors. Guaranteed. -->
-    <section class="part_4">
-        <div class="heading">
-            <h1 class="hero-title">
-                Instant appointment with doctors. Guaranteed.
-            </h1>
-            <div class="check">
-                <div>
-                    <img src="./asset/check.png" alt="" width="30px">
-                </div>
-                <div>
-                    <p class="verified">100,000 Verified doctors</p>
-
-                </div>
-            </div>
-
-            <div class="check">
-                <div>
-                    <img src="./asset/check.png" alt="" width="30px">
-                </div>
-                <div>
-                    <p class="verified">3M+ Patient recommendations</p>
-
-                </div>
-            </div>
-
-            <div class="check">
-                <div>
-                    <img src="./asset/check.png" alt="" width="30px">
-                </div>
-                <div>
-                    <p class="verified">25M Patients/year</p>
-
-                </div>
-            </div>
-            <button class="btn btn-dark rounded-pill px-4 py-3 shadow">
-                Find me the right Doctor
-            </button>
-
-        </div>
 
 
-        <div>
-            <img src="./asset/appointment.png" alt="" width="500px">
-        </div>
-
-    </section>
-
-    <!--  Book Your First Consultation -->
-    <section class="part_5">
-
-        <div>
-            <h1 class="hero-title">
-                Book Your First Consultation — Absolutely Free </h1>
-            <p>New to our clinic? Enjoy a complimentary consultation with our experienced doctors. Get personalized
-                health advice and start your wellness journey today — no hidden charges.</p>
-            <button class="btn btn-dark rounded-pill px-4 py-3 shadow">
-                Book Now
-            </button>
-
-        </div>
-
-    </section>
-
-    <!--  Footer -->
-    <section class="part_6">
-        <div class="logo_1">
-            <img src="./asset/Practo Logo PNG Vector (EPS) Free Download.jpg" alt="" width="160px">
-            <p>Lorem ipsum dolor sit amet consectetur. <br> Elementum metus vitae a <br> dignissim mauris a sodales commodo dui.
-                 <br>Gravida  molestie diam vitae.</p>
-        </div>
-
-        <div class="quick_link">
-            <h4 class="for_footer">Quick Links</h4>
-            <ul class="list_items">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Pricing</a></li>
-            </ul>
-        </div>
-
-        <div class="contact_info">
-            <h4 class="for_footer">Contact Info</h4>
-            <ul class="list_items">
-                <li><a href="#">📍 123 Wellness Avenue, Kolkata, India</a></li>
-                <li><a href="#">+91 98765 43210</a></li>
-                <li><a href="#">support@practo.com</a></li>
-            </ul>
-
-        </div>
-
-        <div class="social_link">
-            <h4 class="for_footer">Social Media</h4>
-            <ul class="link_items">
-                <div>
-                    <li><a href="#"><img src="./asset/facebook.png" alt="" width="35px"></a></li>
-
-                </div>
-                <div>
-                    <li><a href="#"><img src="./asset/insta.png" alt="" width="35px"></a></li>
 
 
-                </div>
-                <div>
-                    <li><a href="#"><img src="./asset/linkedin.png" alt="" width="35px"></a></li>
-
-                </div>
-
-            </ul>
-
-        </div>
-       
-    </section>
-    <section class="Copyright">
-         <p>Copyright: © 2026 HealthEase. All rights reserved.</p>
-    </section>
 
 
 
@@ -495,7 +403,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
-
 </body>
 
 </html>
+
