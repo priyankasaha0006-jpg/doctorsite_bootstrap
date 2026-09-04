@@ -284,9 +284,10 @@ li .dropdown-item:hover {
 .cart_1 {
 
     padding: 200px 300px;
-    background-image: url(./asset/Cartimage.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url(./asset/cart2.jpg);
+    background-repeat: ;
+    background-size:;
+    background-position:center ;
 }
 
 .input-group {
@@ -816,4 +817,105 @@ background-color: #F4F4F4;
 }
 .add_div{
     padding: 150px 0px 0px 0px;
+}
+.login_section{
+    padding: 200px;
+    background-color: #dcdbdb;
+}
+.login{
+    background-color: #FFFFFF;
+    text-align: center;
+    box-shadow: #000 19px 18px;
+    padding: 20px;
+        border: 1px solid rgb(172, 170, 170);
+
+    
+
+}
+.login_heading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: center;
+    padding: 20px 0px;
+}
+.join_community{
+    font-size: 29px;
+    text-align: center;
+   
+}
+.login p{
+ padding: 10px;
+ text-align: center;
+
+}
+.name_input_login{
+    width: 820px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #F5F5F5;
+    margin: 10px 0px;
+   
+}
+.input_items_login p{
+    padding: 0px 150px;
+    text-align: start;
+}
+.button_login{
+    padding: 50px 0px;
+    text-align: center;
+}
+.back_arrow{
+    text-align: start;
+}
+.dint_have_acc{
+    padding: 80px 0px;
+    text-align: center;
+    color: #0b0bf4;
+    font-weight: 600;
+    font-size: 20px;
+}
+.dint_have_acc a{
+    text-decoration: none;
+
+}
+.confirmation{
+    
+    padding:  20px 300px;
+}
+.confirm_date{
+    display: flex;
+    padding: 10px 0px;
+    gap: 10px;
+}
+.dr_priyaa_confirmation{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    background-color: #FFFFFF;
+    margin: 20px 0px;
+    box-shadow: #0a0a0a 13px 18px;
+    border: 1px solid rgb(203, 203, 203);
+}
+.contact_us{
+    font-weight: 600;
+    color: #3961F3;
+}
+.helping_zone{
+    border: 1px solid rgb(188, 185, 185);
+    padding: 20px 30px;
+    margin: 30px 0px;
+}
+.need_help{
+    display: flex;
+    gap: 10px;
+}
+.trust_area{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 200px;
+}
+.three_points{
+    display: flex;
+    gap: 10px;
 }

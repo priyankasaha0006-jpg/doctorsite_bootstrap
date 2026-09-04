@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmed</title>
+    <link rel="stylesheet" href="./../style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand " href="./../index.html"><img src="./../asset/practo.jpg " class="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./find_doctor.html">Find Doctor</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="video.html">Video Consult</a>
+                        </li>
+
+                        <!-- Medicine dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop">
+                                Medicine
+                            </a>
+                            <ul class="modal">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <!-- Modal -->
+                        <div class="modal cart_section fade " id="staticBackdrop" data-bs-backdrop="static"
+                            data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-xl">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Shop</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="list_1">
+
+                                            <ul class="list_item p">
+                                                <li><a class="dropdown-item py-2" href="#">Shop By Category</a></li>
+                                                <li><a class="dropdown-item py-2" href="#">Product Grid</a></li>
+                                                <li>
+                                                    <a class="dropdown-item py-2" href="#">Cart</a>
+                                                </li>
+                                                <li><a class="dropdown-item py-2" href="#">Checkout</a></li>
+                                                <li><a class="dropdown-item py-2" href="#">Wishlist</a></li>
+                                                <li><a class="dropdown-item py-2" href="#">Login - Register</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="card_2">
+                                            <div class="d-flex ">
+
+                                                <div class="card mx-2" style="width: 18rem;">
+                                                    <img src="./../asset/image.png" class="card-img-top" alt="...">
+                                                    <div class="card-body">
+                                                        <img src="./../asset/star.png" class="w-25">
+                                                        <h5 class="card-title">Blue medical T -Shirt</h5>
+                                                        <p class="card-text text-primary fw-bold">550/-</p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="card mx-2" style="width: 18rem;">
+                                                    <img src="./../asset/bp.png" class="card-img-top" alt="...">
+                                                    <div class="card-body">
+                                                        <img src="./../asset/star.png" class="w-25">
+                                                        <h5 class="card-title">Electronic Tonometer</h5>
+                                                        <p class="card-text text-primary fw-bold">1,900/-</p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="card mx-2" style="width: 18rem;">
+                                                    <img src="./../asset/thermomiter.png" class="card-img-top"
+                                                        alt="...">
+                                                    <div class="card-body">
+                                                        <img src="./../asset/star.png" class="w-25">
+                                                        <h5 class="card-title">Digital Thermometer</h5>
+                                                        <p class="card-text text-primary fw-bold">1,550/-</p>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </ul>
+
+
+                    <!-- Services Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle p-2" href="#" id="servicesDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Services
+                        </a>
+
+                        <ul class="dropdown-menu services-menu" aria-labelledby="servicesDropdown">
+
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    General Consultation
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Specialist Appointments
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Online Video Consultation
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Lab Tests & Diagnostics
+                                </a>
+                            </li>
+
+                        </ul>
+                    </li>
+
+
+                    <!-- pricing dropdown -->
+                    <li class="nav-item dropdown p-2">
+                        <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Pricing
+                        </a>
+
+                        <ul class="dropdown-menu services-menu" aria-labelledby="servicesDropdown">
+
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Basic Plan
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Professional Plan
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Premium Plan
+                                </a>
+                            </li>
+
+
+
+                        </ul>
+                    </li>
+
+                    <!-- contact -->
+                    <li class="nav-item p-2">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+
+                    <!-- Cart -->
+                    <li class="nav-item p-2">
+                        <a class="nav-link" href="#"><img src="./../asset/cart.png" alt="" width="20px"></a>
+                    </li>
+                    <!-- get started -->
+                    <button class="btn rounded-pill get-started shadow p-2" type="submit">Get Started</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <section class="confirmation">
+        <div class="login">
+
+            <img src="./../asset/success.png" alt="" width="90px" height="90px">
+            <h1 class="login_heading">Appointment Confirmed!</h1>
+            <p class="join_community">Your appointment has been successfully booked. We have sent the details to your
+                email. </p>
+            <div class="button_login">
+                <a href="./confirmed.html"><button class="btn rounded-pill get-started shadow px-5 py-3"
+                        type="submit">Submit</button></a>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="confirmation">
+        <div class="dr_priyaa_confirmation">
+            <img src="./../asset/doctor.png" alt="" height="200px">
+            <div>
+                <div class="">
+                    <h1>Dr. Priya Sharma</h1>
+                </div>
+
+                <h4>Cardiologist</h4>
+                <span class="badge text-bg-success p-2">Confirmed</span>
+                <h4>1,200/-</h4>
+
+                <!--Appointment Summary-->
+
+
+                <div class="confirm_date">
+                    <img src="./../asset/calender2.png" alt="" height="25px">
+                    <h6>15th May, Thursday</h6>
+                </div>
+                <div class="confirm_date">
+                    <img src="./../asset/clock2.png" alt="" height="25px">
+                    <h6>9.30Am</h6>
+                </div>
+                <div class="confirm_date">
+                    <img src="./../asset/video.png" alt="" height="25px">
+                    <h6>Video Call</h6>
+                </div>
+                <div class="confirm_date">
+                    <img src="./../asset/single user.png" alt="" height="25px">
+                    <h6>Dr. Priya Sharma (Cardiologist)</h6>
+                </div>
+            </div>
+
+
+
+
+        </div>
+        <!--Need help-->
+        <div class="helping_zone">
+
+
+            <div class="need_help">
+
+                <img src="./../asset/headph.png" alt="" height="20px">
+                <h6>Need Help?</h6>
+
+            </div>
+            <div>
+                <p>Our support team is here to assist you.</p>
+                <p class="contact_us">Contact Us</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="trust_area">
+        <div class="three_points">
+            <img src="./../asset/doctor_icon.png" alt="" height="20px">
+            <p>500+ Experienced Doctor</p>
+        </div>
+        <div class="three_points">
+            <img src="./../asset/happy.png" alt="" height="20px">
+            <p>Trusted by 1M+ Patients</p>
+        </div>
+        <div class="three_points">
+            <img src="./../asset/secure.png" alt="" height="20px">
+            <p>Secure & Confidential</p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
