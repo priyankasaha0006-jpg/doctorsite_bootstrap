@@ -286,8 +286,8 @@ li .dropdown-item:hover {
     padding: 200px 300px;
     background-image: url(./asset/cart2.jpg);
     background-repeat: ;
-    background-size:;
-    background-position:center ;
+    background-size: ;
+    background-position: center;
 }
 
 .input-group {
@@ -602,7 +602,6 @@ li .dropdown-item:hover {
 
 .video_person {
     mar
-
 }
 
 .video_person img {
@@ -630,7 +629,8 @@ li .dropdown-item:hover {
     gap: 20px;
     padding: 10px 0px;
 }
-.services_{
+
+.services_ {
     display: flex;
     justify-content: space-between;
 
@@ -646,73 +646,88 @@ li .dropdown-item:hover {
     display: flex;
     padding: 60px 0px 0px 0px;
 }
-.customer_satisfaction p{
-    padding: 15px ;
+
+.customer_satisfaction p {
+    padding: 15px;
 }
-.innovation_and{
+
+.innovation_and {
     display: flex;
-        padding: 60px 0px 0px 0px;
+    padding: 60px 0px 0px 0px;
 
 }
-.innovation_and h1{
+
+.innovation_and h1 {
     font-family: Georgia, serif;
     font-size: 64px;
     text-align: center;
 
 }
-.innovation_and p{
-    padding: 30px 15px ;
+
+.innovation_and p {
+    padding: 30px 15px;
 
 }
-.how_it_work{
+
+.how_it_work {
     padding: 50px 200px;
 }
-.how_it_work_head{
+
+.how_it_work_head {
     font-family: Georgia, serif;
     font-size: 40px;
     text-align: center;
     padding: 20px;
 }
-.connecting_line{
+
+.connecting_line {
     width: 550px;
     height: 10px;
     background-color: #F4F4F4;
     color: #f0f0fa;
     margin: 80px 0px;
-    
+
 }
-.process{
+
+.process {
     display: flex;
 }
-.sneha_roy{
+
+.sneha_roy {
     padding: 50px 200px;
     display: flex;
     justify-content: space-evenly;
     gap: 30px;
-    
+
 
 }
-.doc_details{
+
+.doc_details {
     text-align: center;
 }
-.doctor_name{
+
+.doctor_name {
     padding: 15px;
 }
-.book_videocall{
+
+.book_videocall {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 40px;
     padding: 10px;
 }
-.price{
+
+.price {
     display: flex;
     justify-content: space-between;
     color: #000;
     padding: 10px;
 }
-.price_details{
+
+.price_details {
     padding: 80px 0px 0px 0px;
 }
-.addons{
+
+.addons {
     background-color: #F4F4F4;
     text-align: center;
     font-weight: bold;
@@ -722,13 +737,15 @@ li .dropdown-item:hover {
     margin: 10px 0px;
     box-shadow: #c3c1c1 3px 4px;
 }
-.paragrah{
+
+.paragrah {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 35px;
     padding: 20px 0px;
     text-align: center;
 }
-.contact_hero1{
+
+.contact_hero1 {
     padding: 200px 200px;
     background-image: url(./asset/handshake.jpg);
     background-repeat: no-repeat;
@@ -738,26 +755,32 @@ li .dropdown-item:hover {
     text-align: center;
     height: 500px;
 }
-.con_head{
+
+.con_head {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
 }
-.patient_details2{
+
+.patient_details2 {
     padding: 50px 200px;
 }
-.patient_head{
+
+.patient_head {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.enter_name p{
+
+.enter_name p {
     text-transform: capitalize;
     font-size: 20px;
     padding: 40px 0px 0pc 0px;
 }
-.enter_name_dropdown{
+
+.enter_name_dropdown {
     display: flex;
     justify-content: space-between;
 }
-.name_input{
+
+.name_input {
     width: 500px;
     padding: 8px 8px;
     background-color: #F5F5F5;
@@ -765,21 +788,25 @@ li .dropdown-item:hover {
     text-decoration: none;
     border: none;
 }
-.input_items{
+
+.input_items {
     display: flex;
-   justify-content: space-between;
+    justify-content: space-between;
 }
-.dropdown_list{
-   margin: 40px 0px 0px 0px ;
+
+.dropdown_list {
+    margin: 40px 0px 0px 0px;
 }
-.address_{
+
+.address_ {
     width: 1120px;
     padding: 15px;
     background-color: #F5F5F5;
     border-radius: 10px;
     border: none;
 }
-.massage_{
+
+.massage_ {
     width: 1120px;
     padding: 10px 0px 100px 10px;
     background-color: #F5F5F5;
@@ -787,108 +814,130 @@ li .dropdown-item:hover {
     border: none;
     margin: 0px 0px 20px 0px;
 }
-.support{
+
+.support {
     padding: 50px 200px;
     display: flex;
     justify-content: space-between;
 }
-.location{
-padding: 50px 200px;
-background-color: #F4F4F4;
+
+.location {
+    padding: 50px 200px;
+    background-color: #F4F4F4;
 }
-.heading_howtofind{
+
+.heading_howtofind {
     display: flex;
     justify-content: space-between;
 }
-.lorem{
+
+.lorem {
     padding-top: 30px;
 }
-.opening_hours{
+
+.opening_hours {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.location_info{
-  background-color: #ffffff;
-  padding: 20px;
-  width: 600px;
+
+.location_info {
+    background-color: #ffffff;
+    padding: 20px;
+    width: 600px;
 }
-.details{
+
+.details {
     display: flex;
-   gap: 20px;
+    gap: 20px;
 }
-.add_div{
+
+.add_div {
     padding: 150px 0px 0px 0px;
 }
-.login_section{
+
+.login_section {
     padding: 200px;
     background-color: #dcdbdb;
 }
-.login{
+
+.login {
     background-color: #FFFFFF;
     text-align: center;
     box-shadow: #000 19px 18px;
     padding: 20px;
-        border: 1px solid rgb(172, 170, 170);
+    border: 1px solid rgb(172, 170, 170);
 
-    
+
 
 }
-.login_heading{
+
+.login_heading {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 50px;
     text-align: center;
     padding: 20px 0px;
 }
-.join_community{
+
+.join_community {
     font-size: 29px;
     text-align: center;
-   
-}
-.login p{
- padding: 10px;
- text-align: center;
 
 }
-.name_input_login{
+
+.login p {
+    padding: 10px;
+    text-align: center;
+
+}
+
+.name_input_login {
     width: 820px;
     padding: 10px 20px;
     border: none;
     border-radius: 10px;
     background-color: #F5F5F5;
     margin: 10px 0px;
-   
+
 }
-.input_items_login p{
+
+.input_items_login p {
     padding: 0px 150px;
     text-align: start;
 }
-.button_login{
+
+.button_login {
     padding: 50px 0px;
     text-align: center;
 }
-.back_arrow{
+
+.back_arrow {
     text-align: start;
 }
-.dint_have_acc{
+
+.dint_have_acc {
     padding: 80px 0px;
     text-align: center;
     color: #0b0bf4;
     font-weight: 600;
     font-size: 20px;
 }
-.dint_have_acc a{
+
+.dint_have_acc a {
     text-decoration: none;
 
 }
-.confirmation{
-    
-    padding:  20px 300px;
+
+.confirmation {
+
+    padding: 20px 300px;
 }
-.confirm_date{
+
+.confirm_date {
     display: flex;
     padding: 10px 0px;
     gap: 10px;
 }
-.dr_priyaa_confirmation{
+
+.dr_priyaa_confirmation {
     display: flex;
     justify-content: space-evenly;
     padding: 20px;
@@ -897,25 +946,102 @@ background-color: #F4F4F4;
     box-shadow: #0a0a0a 13px 18px;
     border: 1px solid rgb(203, 203, 203);
 }
-.contact_us{
+
+.contact_us {
     font-weight: 600;
     color: #3961F3;
 }
-.helping_zone{
+
+.helping_zone {
     border: 1px solid rgb(188, 185, 185);
     padding: 20px 30px;
     margin: 30px 0px;
 }
-.need_help{
+
+.need_help {
     display: flex;
     gap: 10px;
 }
-.trust_area{
+
+.trust_area {
     display: flex;
     justify-content: space-evenly;
     padding: 30px 200px;
 }
-.three_points{
+
+.three_points {
     display: flex;
     gap: 10px;
+}
+
+.payment_section {
+    padding: 50px 300px;
+    
+}
+
+.upi_pay {
+    background-color: #c1effc;
+    padding: 10px 15px 0px 15px;
+    border: 1px solid blue;
+    border-radius: 8px 8px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wallet {
+    padding: 10px 15px 0px 15px;
+    border: 1px solid rgb(150, 150, 152);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.wallet:hover {
+    background-color: #c1effc;
+
+}
+
+.payment_options h2 {
+    padding: 20px 0px;
+}
+
+.details_doc_priya {
+    border: 1px solid rgb(169, 166, 166);
+    padding: 10px;
+}
+
+.all_taxes {
+    border: 1px solid rgb(180, 178, 178);
+    padding: 10px 15px 0px 15px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.all_taxes_button{
+    padding: 25px 0px;
+    text-align: center;
+}
+.billing_details h2{
+    padding: 20px 0px;
+}
+.note{
+    font-weight: bold;
+    color: #777676;
+}
+.note_practo{
+    padding:  0px 10px;
+}
+.qr_payment{
+    padding: 50px 300px;
+    text-align: center;
+}
+.qr_payment h5{
+    color: blue;
+}
+.time_{
+    color: rgb(21, 128, 21);
+    font-weight: bold;
+}
+.qr_payment img{
+padding: 20px;
 }
