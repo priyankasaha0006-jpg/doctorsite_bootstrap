@@ -202,336 +202,522 @@
     </div>
 
     <!-- Book an Appointment -->
-    <div class="doctor_details">
-        <section class="book_appointment">
-            <div>
+   <div class="doctor_details container-fluid py-4">
+
+    <div class="row g-4">
+
+        <!-- LEFT: Book Appointment -->
+        <section class="book_appointment col-12 col-lg-5">
+
+            <div class="mb-4">
                 <h3 class="heading_finddoc">Book an Appointment</h3>
                 <p>Find the right doctor and book slot in just a few clicks.</p>
             </div>
 
-
-            <!-- Book an Appointment -->
+            <!-- Search -->
             <form>
-                <div class="list_form">
-                    <fieldset disabled>
-                        <div class="mb-3">
-                            <input type="text" id="disabledTextInput" class="form-control"
-                                placeholder="Search doctor, specialty or hospitalt">
-                        </div>
-                        <div class="mb-3">
-                            <select id="disabledSelect" class="form-select">
-                                <option>All Specialties </option>
-                            </select>
+                <div class="mb-3">
+                    <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Search doctor, specialty or hospital"
+                    >
+                </div>
 
+                <div class="mb-3">
+                    <select class="form-select">
+                        <option selected>All Specialties</option>
+                        <option>Cardiology</option>
+                        <option>Neurology</option>
+                        <option>Orthopedics</option>
+                        <option>Dermatology</option>
+                    </select>
+                </div>
 
-                        </div>
-                        <div class="mb-3">
-                            <select id="disabledSelect" class="form-select">
-                                <option>All Locations</option>
-                            </select>
-
-
-                        </div>
-
-                    </fieldset>
+                <div class="mb-4">
+                    <select class="form-select">
+                        <option selected>All Locations</option>
+                        <option>Kolkata</option>
+                        <option>Delhi</option>
+                        <option>Mumbai</option>
+                    </select>
                 </div>
             </form>
-            <!--Top Doctors-->
-            <h4>Top Doctors</h4>
-            <div class="top_doctor">
-                <img src="./../asset/doctor.png" alt="" width="px" height="60px">
-                <div>
-                    <div class="doc_verify">
 
-                        <p class="doc_name">Dr. Priya Sharma</p>
-                        <img src="./../asset/verified.png" alt="" height="20px">
+
+            <!-- Top Doctors -->
+            <h4 class="mb-3">Top Doctors</h4>
+
+            <!-- Doctor 1 -->
+            <div class="top_doctor d-flex align-items-center gap-3 p-3 mb-3">
+
+                <img src="./../asset/doctor.png"
+                     alt="Dr. Priya Sharma"
+                     width="60"
+                     height="60"
+                     class="rounded-circle">
+
+                <div class="flex-grow-1">
+
+                    <div class="doc_verify d-flex align-items-center gap-2">
+                        <p class="doc_name mb-0">Dr. Priya Sharma</p>
+                        <img src="./../asset/verified.png"
+                             alt="Verified"
+                             height="20">
                     </div>
-                    <h6 class="department">Cardiologist</h6>
-                    <div class="rating">
-                        <h6>⭐ 4.9</h6>
-                        <p>(Reviews)</p>
+
+                    <h6 class="department mb-1">Cardiologist</h6>
+
+                    <div class="rating d-flex gap-2">
+                        <h6 class="mb-0">⭐ 4.9</h6>
+                        <p class="mb-0">(Reviews)</p>
                     </div>
-                </div>
-                <div>
-                    <button class="btn-light rounded-pill px-5 py-2  bg-light border-light">Available
-                    </button>
+
                 </div>
 
+                <button class="btn btn-light rounded-pill px-3 py-2">
+                    Available
+                </button>
 
             </div>
 
-            <div class="top_doctor">
-                <img src="./../asset/maledoc.png" alt="" width="px" height="60px">
-                <div>
-                    <div class="doc_verify">
 
-                        <p class="doc_name">Dr. Arjun Mehta</p>
-                        <img src="./../asset/verified.png" alt="" height="20px">
+            <!-- Doctor 2 -->
+            <div class="top_doctor d-flex align-items-center gap-3 p-3 mb-3">
+
+                <img src="./../asset/maledoc.png"
+                     alt="Dr. Arjun Mehta"
+                     width="60"
+                     height="60"
+                     class="rounded-circle">
+
+                <div class="flex-grow-1">
+
+                    <div class="doc_verify d-flex align-items-center gap-2">
+                        <p class="doc_name mb-0">Dr. Arjun Mehta</p>
+                        <img src="./../asset/verified.png"
+                             alt="Verified"
+                             height="20">
                     </div>
-                    <h6 class="department">Neurologist</h6>
-                    <div class="rating">
-                        <h6>⭐ 4.9</h6>
-                        <p>(Reviews)</p>
+
+                    <h6 class="department mb-1">Neurologist</h6>
+
+                    <div class="rating d-flex gap-2">
+                        <h6 class="mb-0">⭐ 4.9</h6>
+                        <p class="mb-0">(Reviews)</p>
                     </div>
-                </div>
-                <div>
-                    <button class="btn-light rounded-pill px-5 py-2  bg-light border-light">Available
-                    </button>
+
                 </div>
 
+                <button class="btn btn-light rounded-pill px-3 py-2">
+                    Available
+                </button>
 
             </div>
 
-            <div class="top_doctor">
-                <img src="./../asset/oldlady.png" alt="" width="px" height="60px">
-                <div>
-                    <div class="doc_verify">
 
-                        <p class="doc_name">Dr. Sarojini Nandi</p>
-                        <img src="./../asset/verified.png" alt="" height="20px">
+            <!-- Doctor 3 -->
+            <div class="top_doctor d-flex align-items-center gap-3 p-3 mb-3">
+
+                <img src="./../asset/oldlady.png"
+                     alt="Dr. Sarojini Nandi"
+                     width="60"
+                     height="60"
+                     class="rounded-circle">
+
+                <div class="flex-grow-1">
+
+                    <div class="doc_verify d-flex align-items-center gap-2">
+                        <p class="doc_name mb-0">Dr. Sarojini Nandi</p>
+                        <img src="./../asset/verified.png"
+                             alt="Verified"
+                             height="20">
                     </div>
-                    <h6 class="department">Orthopedic</h6>
-                    <div class="rating">
-                        <h6>⭐ 4.9</h6>
-                        <p>(Reviews)</p>
+
+                    <h6 class="department mb-1">Orthopedic</h6>
+
+                    <div class="rating d-flex gap-2">
+                        <h6 class="mb-0">⭐ 4.9</h6>
+                        <p class="mb-0">(Reviews)</p>
                     </div>
-                </div>
-                <div>
-                    <button class="btn-light rounded-pill px-5 py-2  bg-light border-light">Available
-                    </button>
+
                 </div>
 
+                <button class="btn btn-light rounded-pill px-3 py-2">
+                    Available
+                </button>
 
             </div>
 
-            <div class="top_doctor">
-                <img src="./../asset/dr.meera.png" alt="" width="px" height="60px">
-                <div>
-                    <div class="doc_verify">
 
-                        <p class="doc_name">Dr. Meera Kapoor</p>
-                        <img src="./../asset/verified.png" alt="" height="20px">
+            <!-- Doctor 4 -->
+            <div class="top_doctor d-flex align-items-center gap-3 p-3 mb-3">
+
+                <img src="./../asset/dr.meera.png"
+                     alt="Dr. Meera Kapoor"
+                     width="60"
+                     height="60"
+                     class="rounded-circle">
+
+                <div class="flex-grow-1">
+
+                    <div class="doc_verify d-flex align-items-center gap-2">
+                        <p class="doc_name mb-0">Dr. Meera Kapoor</p>
+                        <img src="./../asset/verified.png"
+                             alt="Verified"
+                             height="20">
                     </div>
-                    <h6 class="department">Pediatrics</h6>
-                    <div class="rating">
-                        <h6>⭐ 4.9</h6>
-                        <p>(Reviews)</p>
+
+                    <h6 class="department mb-1">Pediatrics</h6>
+
+                    <div class="rating d-flex gap-2">
+                        <h6 class="mb-0">⭐ 4.9</h6>
+                        <p class="mb-0">(Reviews)</p>
                     </div>
-                </div>
-                <div>
-                    <button class="btn-light rounded-pill px-5 py-2  bg-light border-light">Available
-                    </button>
+
                 </div>
 
+                <button class="btn btn-light rounded-pill px-3 py-2">
+                    Available
+                </button>
 
             </div>
 
-            <h6 class="view_all">View all Doctors</h6>
-
-
-
+            <div class="text-center mt-3">
+                <a href="#" class="view_all">View all Doctors</a>
+            </div>
 
         </section>
-        <!-- Appointment Summary -->
-        <section class="doctor_info">
 
-            <!-- 3-steps -->
-            <div class="summary">
 
-                <div>
+        <!-- RIGHT: Appointment Summary -->
+        <section class="doctor_info col-12 col-lg-7">
+
+            <!-- Steps -->
+            <div class="summary d-flex align-items-start justify-content-center gap-2 mb-4">
+
+                <div class="text-center">
                     <div class="cercle">1</div>
-                    <h6 class="steps_heading">Select <br> Doctor</h6>
+                    <h6 class="steps_heading mt-2">
+                        Select<br>Doctor
+                    </h6>
                 </div>
-                <hr class="rular">
-                <div>
+
+                <hr class="rular flex-grow-1">
+
+                <div class="text-center">
                     <div class="cercle2">2</div>
-                    <h6 class="steps_heading">Select Date <br> & Time</h6>
+                    <h6 class="steps_heading mt-2">
+                        Select Date<br>& Time
+                    </h6>
                 </div>
-                <hr class="rular">
-                <div>
+
+                <hr class="rular flex-grow-1">
+
+                <div class="text-center">
                     <div class="cercle2">3</div>
-                    <h6 class="steps_heading">Confirm <br> Booking</h6>
+                    <h6 class="steps_heading mt-2">
+                        Confirm<br>Booking
+                    </h6>
                 </div>
+
             </div>
 
-            <!-- Dr. Priya Sharma -->
+
+            <!-- Doctor Information -->
             <div class="all_aboutdoc">
-                <div class="dr_priya">
-                    <img src="./../asset/doctor.png" alt="" height="150px">
+
+                <div class="dr_priya d-flex align-items-center gap-3">
+
+                    <img src="./../asset/doctor.png"
+                         alt="Dr. Priya Sharma"
+                         height="150"
+                         class="img-fluid">
+
                     <div>
-                        <div class="doc_verify">
-                            <h4>Dr. Priya Sharma</h4>
-                            <img src="./../asset/verified.png" alt="" height="20px">
+
+                        <div class="doc_verify d-flex align-items-center gap-2">
+                            <h4 class="mb-0">Dr. Priya Sharma</h4>
+                            <img src="./../asset/verified.png"
+                                 alt="Verified"
+                                 height="20">
                         </div>
-                        <ul class="description_list">
+
+                        <ul class="description_list mt-2">
                             <li>Cardiologist</li>
-                            <li>MBBS ,Md (Cardiologist)</li>
-                            <li>1,200/-</li>
-                            <div class="rating">
-                                <h6>⭐ 4.9</h6>
-                                <p>(Reviews)</p>
-                            </div>
+                            <li>MBBS, MD (Cardiologist)</li>
+                            <li>₹1,200/-</li>
                         </ul>
+
+                        <div class="rating d-flex gap-2">
+                            <h6>⭐ 4.9</h6>
+                            <p>(Reviews)</p>
+                        </div>
+
                     </div>
 
                 </div>
 
-                <div class="qualities">
-                    <div class="qualities_1">
-                        <img src="./../asset/calender.png" alt="" width="30px" height="30px">
-                        <div class="experience_8years">
-                            <p>Experience</p>
-                            <p class="qualities_p">8+ Years</p>
 
+                <!-- Doctor Qualities -->
+                <div class="qualities row g-3 mt-4">
+
+                    <div class="col-12 col-md-4">
+                        <div class="qualities_1 d-flex align-items-center gap-2">
+                            <img src="./../asset/calender.png"
+                                 alt="Experience"
+                                 width="30"
+                                 height="30">
+
+                            <div>
+                                <p class="mb-0">Experience</p>
+                                <p class="qualities_p mb-0">8+ Years</p>
+                            </div>
                         </div>
-
-                    </div>
-                    <div class="qualities_1">
-                        <img src="./../asset/user.png" alt="" width="30px" height="30px">
-                        <div class="experience_8years">
-                            <p>Patients</p>
-                            <p class="qualities_p">2,500+</p>
-
-                        </div>
-
-                    </div>
-                    <div class="qualities_1">
-                        <img src="./../asset/language.png" alt="" width="30px" height="30px">
-                        <div class="experience_8years">
-                            <p>Language</p>
-                            <p class="qualities_p">Hindi, English</p>
-
-                        </div>
-
                     </div>
 
+                    <div class="col-12 col-md-4">
+                        <div class="qualities_1 d-flex align-items-center gap-2">
+                            <img src="./../asset/user.png"
+                                 alt="Patients"
+                                 width="30"
+                                 height="30">
 
+                            <div>
+                                <p class="mb-0">Patients</p>
+                                <p class="qualities_p mb-0">2,500+</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <div class="qualities_1 d-flex align-items-center gap-2">
+                            <img src="./../asset/language.png"
+                                 alt="Language"
+                                 width="30"
+                                 height="30">
+
+                            <div>
+                                <p class="mb-0">Language</p>
+                                <p class="qualities_p mb-0">Hindi, English</p>
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
 
-                <!--About Doctor-->
-                <div class="about_doctor">
+
+                <!-- About Doctor -->
+                <div class="about_doctor mt-4">
+
                     <h5>About Doctor</h5>
-                    <p>Dr. Priya Sharma is a compassionate and highly skilled cardiologist specializing in <br>
-                        preventive heart care and lifestyle management. Her approach combines medical <br> precision
-                        with patient empathy, helping individuals maintain heart health through early <br> diagnosis and
-                        personalized treatment plans.</p>
 
-                    <p class="view_more"><a href="#"> More About Dr. Priya</a></p>
+                    <p>
+                        Dr. Priya Sharma is a compassionate and highly skilled
+                        cardiologist specializing in preventive heart care and
+                        lifestyle management. Her approach combines medical
+                        precision with patient empathy, helping individuals
+                        maintain heart health through early diagnosis and
+                        personalized treatment plans.
+                    </p>
+
+                    <p class="view_more">
+                        <a href="#">More About Dr. Priya</a>
+                    </p>
+
                     <hr>
+
                 </div>
-                <!--Available Date-->
-                <div class="available_date">
-                    <img src="./../asset/date.png" alt="" height="50px">
+
+
+                <!-- Available Date -->
+                <div class="available_date d-flex align-items-center gap-3 mt-4">
+
+                    <img src="./../asset/date.png"
+                         alt="Date"
+                         height="50">
 
                     <div>
-                        <h5>Available Date</h5>
-                        <p>Choose the Date & schedule accordingly</p>
+                        <h5 class="mb-1">Available Date</h5>
+                        <p class="mb-0">
+                            Choose the date & schedule accordingly
+                        </p>
                     </div>
 
                 </div>
 
-                <!--Select Date-->
-                <div class="date_list">
-                    <div class="select_date">
-                        <h6>12</h6>
-                        <h6>Mon</h6>
-                    </div>
-                    <div class="select_date">
-                        <h6>13</h6>
-                        <h6>Tue</h6>
-                    </div>
-                    <div class="select_date">
-                        <h6>14</h6>
-                        <h6>Wed</h6>
-                    </div>
-                    <div class="select_date_active">
-                        <h6>15</h6>
-                        <h6>Thu</h6>
-                    </div>
-                    <div class="select_date">
-                        <h6>16</h6>
-                        <h6>Fri</h6>
-                    </div>
-                    <div class="select_date">
-                        <h6>17</h6>
-                        <h6>Sat</h6>
-                    </div>
-                    <div class="select_date">
-                        <h6>18</h6>
-                        <h6>Sun</h6>
-                    </div>
-                </div>
-                <!--Available Time-->
-                <div class="available_date">
-                    <img src="./../asset/Clock.png" alt="" height="50px">
 
-                    <div>
-                        <h5>Available Time</h5>
-                        <p>Choose the time schedule accordingly</p>
-                    </div>
+                <!-- Dates -->
+                <div class="date_list d-flex gap-2 mt-3">
 
-                </div>
-                <!--Select Time-->
-                <div class="time_list">
-                    <div class="select_time">
-                        <h6>8:00 AM</h6>
-                    </div>
-                    <div class="select_time">
-                        <h6>9:00 AM</h6>
-                    </div>
-                    <div class="select_time">
-                        <h6>9:30 AM</h6>
-                    </div>
-                    <div class="select_time">
-                        <h6>10:00 AM</h6>
-                    </div>
-                    <div class="select_time">
-                        <h6>10:40 AM</h6>
-                    </div>
-                    <div class="select_time">
-                        <h6>3:00 PM</h6>
-                    </div>
-                    <div class="select_time">
-                        <h6>9:00 PM</h6>
-                    </div>
-
-
-                </div>
-
-                <!--Appointment Summary-->
-                <div class="appointment_summary">
-                    <div class="appointment_summary_heading">
-                        <h4>Appointment Summary</h4>
-                        <img src="./../asset/edit.png" alt="" width="70px">
-                    </div>
-                    <div class="may_15th">
-                        <img src="./../asset/calender2.png" alt="" height="20px">
-                        <p>15th May, Thursday</p>
-                    </div>
-                    <div class="may_15th">
-                        <img src="./../asset/clock2.png" alt="" height="20px">
-                        <p>9.30Am</p>
-                    </div>
-                    <div class="may_15th">
-                        <img src="./../asset/video.png" alt="" height="20px">
-                        <p>Video Call</p>
-                    </div>
-                    <div class="may_15th">
-                        <img src="./../asset/single user.png" alt="" height="20px">
-                        <p>Dr. Priya Sharma (Cardiologist)</p>
-                    </div>
-                </div>
-                <a href="./login.html"><button class="btn btn-dark1 rounded-pill px-4 py-3 shadow">
-                    Login to Confirm Appointment </button></a>
-
-                <p class="encrypted"> Your information is secured and encrypted
-                </p>
-            </div>
-
-        </section>
+    <div class="select_date text-center p-2">
+        <h6>12</h6>
+        <h6>Mon</h6>
     </div>
 
+    <div class="select_date text-center p-2">
+        <h6>13</h6>
+        <h6>Tue</h6>
+    </div>
+
+    <div class="select_date text-center p-2">
+        <h6>14</h6>
+        <h6>Wed</h6>
+    </div>
+
+    <div class="select_date_active text-center p-2">
+        <h6>15</h6>
+        <h6>Thu</h6>
+    </div>
+
+    <div class="select_date text-center p-2">
+        <h6>16</h6>
+        <h6>Fri</h6>
+    </div>
+
+    <div class="select_date text-center p-2">
+        <h6>17</h6>
+        <h6>Sat</h6>
+    </div>
+
+    <div class="select_date text-center p-2">
+        <h6>18</h6>
+        <h6>Sun</h6>
+    </div>
+
+</div>
+
+
+                <!-- Available Time -->
+                <div class="available_date d-flex align-items-center gap-3 mt-4">
+
+                    <img src="./../asset/Clock.png"
+                         alt="Time"
+                         height="50">
+
+                    <div>
+                        <h5 class="mb-1">Available Time</h5>
+                        <p class="mb-0">
+                            Choose the time schedule accordingly
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <!-- Times -->
+                <div class="time_list row row-cols-2 row-cols-sm-3 row-cols-md-4 g-2 mt-3">
+
+                    <div class="col">
+                        <div class="select_time text-center p-2">
+                            <h6>8:00 AM</h6>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="select_time text-center p-2">
+                            <h6>9:00 AM</h6>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="select_time text-center p-2">
+                            <h6>9:30 AM</h6>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="select_time text-center p-2">
+                            <h6>10:00 AM</h6>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="select_time text-center p-2">
+                            <h6>10:40 AM</h6>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="select_time text-center p-2">
+                            <h6>3:00 PM</h6>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="select_time text-center p-2">
+                            <h6>9:00 PM</h6>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!-- Appointment Summary -->
+                <div class="appointment_summary mt-4 p-3">
+
+                    <div class="appointment_summary_heading d-flex justify-content-between align-items-center">
+
+                        <h4 class="mb-0">Appointment Summary</h4>
+
+                        <img src="./../asset/edit.png"
+                             alt="Edit"
+                             height="30">
+
+                    </div>
+
+                    <div class="may_15th d-flex align-items-center gap-2 mt-3">
+                        <img src="./../asset/calender2.png"
+                             alt="Date"
+                             height="20">
+                        <p class="mb-0">15th May, Thursday</p>
+                    </div>
+
+                    <div class="may_15th d-flex align-items-center gap-2 mt-2">
+                        <img src="./../asset/clock2.png"
+                             alt="Time"
+                             height="20">
+                        <p class="mb-0">9:30 AM</p>
+                    </div>
+
+                    <div class="may_15th d-flex align-items-center gap-2 mt-2">
+                        <img src="./../asset/video.png"
+                             alt="Video Call"
+                             height="20">
+                        <p class="mb-0">Video Call</p>
+                    </div>
+
+                    <div class="may_15th d-flex align-items-center gap-2 mt-2">
+                        <img src="./../asset/single user.png"
+                             alt="Doctor"
+                             height="20">
+                        <p class="mb-0">Dr. Priya Sharma (Cardiologist)</p>
+                    </div>
+
+                </div>
+
+
+                <!-- Confirm -->
+                <div class="text-center mt-4">
+
+                    <a href="./login.html"
+                       class="btn btn-dark1 rounded-pill px-4 py-3 shadow">
+                        Login to Confirm Appointment
+                    </a>
+
+                    <p class="encrypted mt-3">
+                        Your information is secured and encrypted
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </div>
+
+</div>
 
 
 

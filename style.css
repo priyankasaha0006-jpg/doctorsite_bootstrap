@@ -55,9 +55,6 @@ li .dropdown-item:hover {
     padding: 10px 0px;
 }
 
-.card-img-top:hover {}
-
-
 .get-started {
     background-color: #000 !important;
     color: #fff !important;
@@ -95,7 +92,9 @@ li .dropdown-item:hover {
     transform: translateY(-2px);
 
 }
-
+.hero-title-head{
+       font-family: Georgia, serif;
+}
 
 .hero-title {
     font-family: Georgia, serif;
@@ -104,7 +103,10 @@ li .dropdown-item:hover {
     color: #202830;
 
 }
+.hero-section{
+        background: linear-gradient(80deg, #c7e6f8 0%, #fbfdfd 50%);
 
+}
 .doctor-image {
     width: 400px;
     height: 400px;
@@ -115,10 +117,7 @@ li .dropdown-item:hover {
     padding: 10px 0px;
 }
 
-.hero-section {
-    padding: 0px 200px;
-    background: linear-gradient(90deg, #c7e6f8 0%, #fbfdfd 50%);
-}
+
 
 .btn-check[disabled]+.btn,
 .btn-check:disabled+.btn {
@@ -141,10 +140,7 @@ li .dropdown-item:hover {
     margin: 0px 300px;
 }
 
-.part_2 {
-    padding: 100px 200px;
-    display: flex;
-}
+
 
 .get_5_off {
     padding: 10px 0px;
@@ -157,7 +153,7 @@ li .dropdown-item:hover {
 }
 
 .part_3 {
-    padding: 10px 200px;
+   
     background: linear-gradient(10deg, #c7e6f8 0%, #fbfdfd 50%);
 
 
@@ -181,10 +177,7 @@ li .dropdown-item:hover {
     padding: 20px 0px;
 }
 
-.part_4 {
-    padding: 100px 200px;
-    display: flex;
-}
+
 
 .guarnteed {
     font-family: Georgia, serif;
@@ -208,8 +201,6 @@ li .dropdown-item:hover {
 }
 
 .part_5 {
-    padding: 130px 200px;
-    text-align: center;
     background-color: #F5F5F5;
 
 }
@@ -231,30 +222,20 @@ li .dropdown-item:hover {
 
 .link_items {
     display: flex;
-    padding: 10px;
+   
 
 }
 
 .part_6 {
-    padding: 50px 200px;
-    display: flex;
-    justify-content: space-between;
+    
 }
 
 .quick_link {
-    padding: 60px 0px 0px 0px;
+    
 }
 
-.contact_info {
-    padding: 60px 0px 0px 0px;
-    text-align: center;
 
-}
 
-.social_link {
-    padding: 60px 0px 0px 0px;
-
-}
 
 .Copyright {
     text-align: center;
@@ -285,8 +266,6 @@ li .dropdown-item:hover {
 
     padding: 200px 300px;
     background-image: url(./asset/cart2.jpg);
-    background-repeat: ;
-    background-size: ;
     background-position: center;
 }
 
@@ -305,10 +284,9 @@ li .dropdown-item:hover {
 }
 
 .cart_2 {
-    display: flex;
-    justify-content: space-between;
-    padding: 50px 200px;
+   
 }
+
 
 .product_cart {
     display: flex;
@@ -518,8 +496,9 @@ li .dropdown-item:hover {
 }
 
 .select_date:hover {
-    color: #fffdfd;
-    background-color: #0d14e4 !important;
+    color: #0505d9;
+    border-color: #0b0bf4;
+    background-color: #0911e6 !important;
 
 }
 
@@ -549,7 +528,7 @@ li .dropdown-item:hover {
 }
 
 .select_time:hover {
-    color: #fffdfd;
+    color: #fdfdff;
     background-color: #0d14e4 !important;
 
 }
@@ -618,10 +597,9 @@ li .dropdown-item:hover {
 }
 
 .video_part3 {
-    padding: 50px 200px;
+  
     background-color: #F5F5F5;
-    display: flex;
-    gap: 20px;
+   
 }
 
 .points {
@@ -694,7 +672,7 @@ li .dropdown-item:hover {
 }
 
 .sneha_roy {
-    padding: 50px 200px;
+
     display: flex;
     justify-content: space-evenly;
     gap: 30px;
